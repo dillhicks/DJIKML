@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		078318032098FDEE00363C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318022098FDEE00363C96 /* AppDelegate.swift */; };
 		078318052098FDEE00363C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318042098FDEE00363C96 /* ViewController.swift */; };
-		078318082098FDEE00363C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078318062098FDEE00363C96 /* Main.storyboard */; };
 		0783180A2098FDF200363C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078318092098FDF200363C96 /* Assets.xcassets */; };
 		0783180D2098FDF200363C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0783180B2098FDF200363C96 /* LaunchScreen.storyboard */; };
 		078318182098FDF200363C96 /* Drone_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318172098FDF200363C96 /* Drone_MapTests.swift */; };
 		078318232098FDF200363C96 /* Drone_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318222098FDF200363C96 /* Drone_MapUITests.swift */; };
+		07E5000620AFDD2E004BDC54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E5000420AFDD2E004BDC54 /* Main.storyboard */; };
+		2BC735B6601696330DBC91A9 /* libPods-Drone Map.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB925A9F2776C6B492AE68B4 /* libPods-Drone Map.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		078317FF2098FDEE00363C96 /* Drone Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drone Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078318022098FDEE00363C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078318042098FDEE00363C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		078318072098FDEE00363C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		078318092098FDF200363C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0783180C2098FDF200363C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0783180E2098FDF200363C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,10 @@
 		0783181E2098FDF200363C96 /* Drone MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drone MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078318222098FDF200363C96 /* Drone_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drone_MapUITests.swift; sourceTree = "<group>"; };
 		078318242098FDF200363C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E5000520AFDD2E004BDC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BC97E844CD489B6B5924792 /* Pods-Drone Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drone Map/Pods-Drone Map.debug.xcconfig"; sourceTree = "<group>"; };
+		C512F8642394069969E6FD88 /* Pods-Drone Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drone Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drone Map/Pods-Drone Map.release.xcconfig"; sourceTree = "<group>"; };
+		EB925A9F2776C6B492AE68B4 /* libPods-Drone Map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Drone Map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC735B6601696330DBC91A9 /* libPods-Drone Map.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				078318162098FDF200363C96 /* Drone MapTests */,
 				078318212098FDF200363C96 /* Drone MapUITests */,
 				078318002098FDEE00363C96 /* Products */,
+				7F957CB22A01CA4ABCC294F4 /* Pods */,
+				FB540028604651E2FCE180D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +106,7 @@
 			children = (
 				078318022098FDEE00363C96 /* AppDelegate.swift */,
 				078318042098FDEE00363C96 /* ViewController.swift */,
-				078318062098FDEE00363C96 /* Main.storyboard */,
+				07E5000420AFDD2E004BDC54 /* Main.storyboard */,
 				078318092098FDF200363C96 /* Assets.xcassets */,
 				0783180B2098FDF200363C96 /* LaunchScreen.storyboard */,
 				0783180E2098FDF200363C96 /* Info.plist */,
@@ -125,6 +132,23 @@
 			path = "Drone MapUITests";
 			sourceTree = "<group>";
 		};
+		7F957CB22A01CA4ABCC294F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BC97E844CD489B6B5924792 /* Pods-Drone Map.debug.xcconfig */,
+				C512F8642394069969E6FD88 /* Pods-Drone Map.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB540028604651E2FCE180D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB925A9F2776C6B492AE68B4 /* libPods-Drone Map.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078318272098FDF200363C96 /* Build configuration list for PBXNativeTarget "Drone Map" */;
 			buildPhases = (
+				6A1A7226B9DF936E8C721305 /* [CP] Check Pods Manifest.lock */,
 				078317FB2098FDEE00363C96 /* Sources */,
 				078317FC2098FDEE00363C96 /* Frameworks */,
 				078317FD2098FDEE00363C96 /* Resources */,
+				D6200339E42C27B05A2F580D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E5000620AFDD2E004BDC54 /* Main.storyboard in Resources */,
 				0783180D2098FDF200363C96 /* LaunchScreen.storyboard in Resources */,
 				0783180A2098FDF200363C96 /* Assets.xcassets in Resources */,
-				078318082098FDEE00363C96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +276,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A1A7226B9DF936E8C721305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drone Map-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6200339E42C27B05A2F580D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Drone Map/Pods-Drone Map-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drone Map/Pods-Drone Map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		078317FB2098FDEE00363C96 /* Sources */ = {
@@ -293,20 +360,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		078318062098FDEE00363C96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				078318072098FDEE00363C96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0783180B2098FDF200363C96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0783180C2098FDF200363C96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07E5000420AFDD2E004BDC54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E5000520AFDD2E004BDC54 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +495,7 @@
 		};
 		078318282098FDF200363C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC97E844CD489B6B5924792 /* Pods-Drone Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +513,7 @@
 		};
 		078318292098FDF200363C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C512F8642394069969E6FD88 /* Pods-Drone Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
