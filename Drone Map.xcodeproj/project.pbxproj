@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0711691F20CDE12F004E3382 /* KMLGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0711691E20CDE12F004E3382 /* KMLGen.swift */; };
+		071A3FE020C8ACF0004866E2 /* PolygonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A3FDF20C8ACF0004866E2 /* PolygonViewController.swift */; };
+		071A3FE220C8AD0D004866E2 /* KMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A3FE120C8AD0D004866E2 /* KMLViewController.swift */; };
 		078318032098FDEE00363C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318022098FDEE00363C96 /* AppDelegate.swift */; };
 		078318052098FDEE00363C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078318042098FDEE00363C96 /* ViewController.swift */; };
 		0783180A2098FDF200363C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078318092098FDF200363C96 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0711691E20CDE12F004E3382 /* KMLGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMLGen.swift; sourceTree = "<group>"; };
+		071A3FDF20C8ACF0004866E2 /* PolygonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonViewController.swift; sourceTree = "<group>"; };
+		071A3FE120C8AD0D004866E2 /* KMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMLViewController.swift; sourceTree = "<group>"; };
 		078317FF2098FDEE00363C96 /* Drone Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drone Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078318022098FDEE00363C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078318042098FDEE00363C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,8 +114,11 @@
 				078318042098FDEE00363C96 /* ViewController.swift */,
 				07E5000420AFDD2E004BDC54 /* Main.storyboard */,
 				078318092098FDF200363C96 /* Assets.xcassets */,
+				071A3FE120C8AD0D004866E2 /* KMLViewController.swift */,
 				0783180B2098FDF200363C96 /* LaunchScreen.storyboard */,
+				0711691E20CDE12F004E3382 /* KMLGen.swift */,
 				0783180E2098FDF200363C96 /* Info.plist */,
+				071A3FDF20C8ACF0004866E2 /* PolygonViewController.swift */,
 			);
 			path = "Drone Map";
 			sourceTree = "<group>";
@@ -323,8 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0711691F20CDE12F004E3382 /* KMLGen.swift in Sources */,
 				078318052098FDEE00363C96 /* ViewController.swift in Sources */,
+				071A3FE220C8AD0D004866E2 /* KMLViewController.swift in Sources */,
 				078318032098FDEE00363C96 /* AppDelegate.swift in Sources */,
+				071A3FE020C8ACF0004866E2 /* PolygonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
